@@ -10835,6 +10835,6 @@ a.text-dark:focus {
 }
 
 footer.footer {
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	background-color: #e95c17;
+	padding:2rem 0 ;
 }
