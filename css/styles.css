@@ -10785,14 +10785,16 @@ a.text-dark:focus {
 	}
 }
 
-.testimonials {
-	padding-top: 7rem;
+.soluciones {
+	padding-top: 4rem;
 	padding-bottom: 7rem;
 }
-.testimonials .testimonial-item {
+.soluciones .soluciones-item {
 	max-width: 18rem;
+	padding: 1rem 0;
+	border-bottom: 2px solid #26b4f7;
 }
-.testimonials .testimonial-item img {
+.soluciones .soluciones-item img {
 	max-width: 12rem;
 	box-shadow: 0px 5px 5px 0px #adb5bd;
 }
