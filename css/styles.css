@@ -10799,22 +10799,39 @@ a.text-dark:focus {
 	box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
-.call-to-action {
+.partners {
 	position: relative;
 	background-color: #343a40;
-	background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+	background: url("../assets/img/bg-aliados.png") no-repeat center center;
 	background-size: cover;
-	padding-top: 7rem;
-	padding-bottom: 7rem;
+	padding: 3rem 0;
+	display: flex;
+	flex-direction: column;
 }
-.call-to-action .overlay {
+.partners .overlay {
 	position: absolute;
-	background-color: #212529;
+	background-color: rgba(255, 255, 255, 0.8);
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
-	opacity: 0.3;
+}
+.partners .partners-item img {
+	width: 50%;
+	padding: 10px 20px;
+	max-height: 120px;
+	-o-object-fit: contain;
+	object-fit: contain;
+	margin: 20px auto;
+}
+@media (min-width: 576px) {
+	.partners .partners-item img {
+		width: 100%;
+}
+
+@media (min-width: 768px) {
+	.partners .partners-item img {
+		width: 75%;
 }
 
 footer.footer {
