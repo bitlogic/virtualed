@@ -10839,6 +10839,12 @@ footer.footer {
 	background-color: #e95c17;
 	padding: 2rem 0;
 }
+@media (min-width: 576px) {
+	.footer a,
+	.footer p {
+		font-size: 100%;
+	}
+}
 
 .form__btn {
 	background-color: #26b4f7;
@@ -10849,10 +10855,7 @@ footer.footer {
 	color: #fff;
 	opacity: 0.8;
 }
-/* .form-input {
-	max-width: 500px;
-}
- */
+
 .form-start {
 	display: flex;
 	flex-direction: column;

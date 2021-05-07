@@ -100,7 +100,7 @@
 	/**
 	 * Back to top button
 	 */
-	let backtotop = select(".back-to-top");
+	/* let backtotop = select(".back-to-top");
 	if (backtotop) {
 		const toggleBacktotop = () => {
 			if (window.scrollY > 100) {
@@ -111,7 +111,7 @@
 		};
 		window.addEventListener("load", toggleBacktotop);
 		onscroll(document, toggleBacktotop);
-	}
+	} */
 
 	/**
 	 * Mobile nav toggle
@@ -183,7 +183,7 @@
 	/**
 	 * Porfolio isotope and filter
 	 */
-	window.addEventListener("load", () => {
+	/* window.addEventListener("load", () => {
 		let solucionesContainer = select(".soluciones-container");
 		if (solucionesContainer) {
 			let solucionesIsotope = new Isotope(solucionesContainer, {
@@ -214,18 +214,18 @@
 			);
 		}
 	});
-
+ */
 	/**
 	 * Initiate soluciones lightbox
 	 */
-	const solucionesLightbox = GLightbox({
+	/* const solucionesLightbox = GLightbox({
 		selector: ".soluciones-lightbox",
-	});
+	}); */
 
 	/**
 	 * soluciones details slider
 	 */
-	new Swiper(".soluciones-details-slider", {
+	/* new Swiper(".soluciones-details-slider", {
 		speed: 400,
 		loop: true,
 		autoplay: {
@@ -238,11 +238,11 @@
 			clickable: true,
 		},
 	});
-
+ */
 	/**
 	 * Testimonials slider
 	 */
-	new Swiper(".testimonials-slider", {
+	/* new Swiper(".testimonials-slider", {
 		speed: 600,
 		loop: true,
 		autoplay: {
@@ -255,17 +255,17 @@
 			type: "bullets",
 			clickable: true,
 		},
-	});
+	}); */
 
 	/**
 	 * Animation on scroll
 	 */
-	window.addEventListener("load", () => {
+	/* 	window.addEventListener("load", () => {
 		AOS.init({
 			duration: 1000,
 			easing: "ease-in-out",
 			once: true,
 			mirror: false,
 		});
-	});
+	}); */
 })();
